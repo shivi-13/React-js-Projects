@@ -1,30 +1,36 @@
 
 import './App.css';
 
-function App() {
+function Apps() {
   return (
     <div className="App" >
+      <li><a href="www.google.com">HOME</a></li>
+      <li><a href="#">SERVICES</a></li>
+      <li>REVIEWS</li>
+      <li>BARNCHES</li>
+      <li>TRAINING</li>
+      <li>ABOUT US</li>
+      <li>CONTACT US</li>
+
    
-      <button>HOME</button>
-      <button>ABOUT US</button>
-      <button>REVIEWS</button>
-      <button>BRANCHES</button>
-      <button>CONTACT US</button>
-        <div className="side">
-          <li><a href="#">Our Story</a></li>
-          <li>Working Staff</li>
-          <li>Pictures</li>
-          <li>Achievements Done</li>
-          <li>Awards Recieved</li>
-          <li>Address</li>
-          <li><a href="#">Terms ans Cond.</a></li>
+      <div className="sidebar">
+      <h2>Our Story</h2>
+      <h5>Login</h5>
+      <h5>Working Staff</h5>
+      <h5>Pictures</h5>
+      <h5>Achievements Done</h5>
+      <h5>Awards Recieved</h5>
+      <h5>Address</h5>
+      </div>
 
-
-        </div>
+      <div className="footer" >
+        <p><a href="#">Terms and Cond Applied....</a></p>
+      </div>
 
     </div>
-   
+
+
   );
 }
 
-export default App;
+export default Apps;
